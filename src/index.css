@@ -1,0 +1,129 @@
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     background-color: lightslategray;
+ }
+
+ 
+ .heading_style{
+    margin-top: 0;
+    padding: 20px 20px;
+    background-color: darkgray;
+    color: royalblue;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Montserrat', sans-serif;
+   }
+
+ .cards{
+    margin: 80px 120px;
+    display:inline-block;
+    align-items: center;
+    justify-content:center; 
+    background-color: teal;
+    
+   }
+   
+   .card{
+        margin:0px;
+        width: 100%;
+        height:100%;
+        border-radius: 15px;  
+        box-shadow: 2px 2px 10px rgb(43, 44, 44); 
+        background-color:teal;
+   }
+   
+   img{
+    width:100%;
+    height:15vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+
+    .card:hover{
+    transform: scale(1.2);       
+    }
+
+ .cardInfo{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: teal;
+    
+ }
+
+ h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: teal;
+   }
+
+ .category{
+    background-color: teal;
+    }
+
+   .title{
+    background-color:teal;
+   }
+ button{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor:pointer;
+    
+   }
+
+   button:hover{
+    background-color:royalblue;
+    color: white;
+    transition: .2s;
+   }
+
+   .navbar {
+      padding-top: 50px;
+      text-align: center;
+      background-color: darkgray;
+    }
+    
+    .navbar h1 {
+      padding-bottom: 20px;
+      text-transform: capitalize;
+    }
+    
+    /** button group styles **/
+    .btn-group {
+      border-radius: 1rem;
+      text-transform: capitalize;
+      background-color: darkgray;
+    }
+    .btn-group_item {
+      border:none;
+      /* min-width: 6rem; */
+      padding: 1rem 3rem;
+      background-color: teal;
+      color:white;
+      cursor: pointer;
+      margin: 0;
+      font-size: 17px;
+       
+     }
+    .btn-group_item:last-child {
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+    .btn-group_item:first-child {
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+    }
+    .btn-group_item:hover,
+    .btn-group_item:focus {
+      color: rebeccapurple;
+      box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+    }
+    
